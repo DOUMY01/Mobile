@@ -21,9 +21,6 @@
         <activity
             android:name=".PostulantHomeActivity"
             android:exported="false" />
-
-
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
