@@ -22,6 +22,24 @@
             android:name=".PostulantHomeActivity"
             android:exported="false" />
         <activity
+            android:name=".RoleSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddJobOfferActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ApplyJobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DataSnapshot.CompanyScheduleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JobOfferDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScheduleAvailabilityActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
