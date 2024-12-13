@@ -19,6 +19,9 @@
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
+            android:name=".CompanyHomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".PostulantHomeActivity"
             android:exported="false" />
         <activity
