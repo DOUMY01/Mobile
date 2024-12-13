@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- Título de la oferta de trabajo -->
+    <TextView
+        android:id="@+id/jobTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Título de la oferta"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Descripción de la oferta de trabajo -->
+    <TextView
+        android:id="@+id/jobDescriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción de la oferta"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+
+    <!-- Requisitos de la oferta de trabajo -->
+    <TextView
+        android:id="@+id/jobRequirementsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Requisitos"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Botón de postularse -->
+    <Button
+        android:id="@+id/applyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Postularse"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

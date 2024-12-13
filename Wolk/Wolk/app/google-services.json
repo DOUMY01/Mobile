@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "340362301012",
+    "project_id": "wolk-6d0cb",
+    "storage_bucket": "wolk-6d0cb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340362301012:android:887ea4e99328db475f27c1",
+        "android_client_info": {
+          "package_name": "inacap.cl.wolk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuaLFoWcMQUJ72mfAmby6riSgRRMrKQMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
